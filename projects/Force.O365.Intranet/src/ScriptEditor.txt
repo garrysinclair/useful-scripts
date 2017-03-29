@@ -1,0 +1,24 @@
+<link rel="stylesheet" type="text/css" href="../SiteAssets/newsRollups/news-rollup.css">
+<div class="forceNewsHeader">
+<h2 style="text-align:justify;" class="ms-webpart-titleText">News</h2>
+</div>
+<div class="forceNewsAddNew ms-core-defaultFont ms-comm-forumContainer ms-comm-heroLinkContainer">
+<a id="idHomePageNewAnnouncement" class="ms-textXLarge ms-heroCommandLink" 
+href="https://forcetechnology.sharepoint.com/_layouts/15/listform.aspx?PageType=8&amp;ListId=%7BB4F39F36%2DA947%2D4750%2D98C1%2D0DEF4F1306A5%7D&amp;RootFolder=" 
+data-viewctr="2" onclick="_EasyUploadOrNewItem2(event, false, &quot;https://forcetechnology.sharepoint.com/_layouts/15/listform.aspx?PageType=8&amp;ListId=%7BB4F39F36%2DA947%2D4750%2D98C1%2D0DEF4F1306A5%7D&amp;RootFolder=&quot;, &quot;WPQ3&quot;); return false;" 
+target="_self" title="Add a new news item.">
+<span class="ms-list-addnew-imgSpan20"><img id="idHomePageNewAnnouncement-img" src="/_layouts/15/images/spcommon.png?rev=44" class="ms-list-addnew-img20"></span>
+<span>new news</span>
+</a>
+</div>
+ <div id="forceNewsRollup" class="forceNewsRollup">
+ </div>
+<div class="forceNewsFooter">
+<a class="ms-pivotControl-surfacedOpt-selected" href="#" id="WPQ1_ListTitleViewSelectorMenu_Container_surfaceopt0" onclick="SP.QoS.WriteUserEngagement(&quot;ClientPivot_ViewSelected&quot;);STSNavigate2(event,'/Lists/Announcements/AllItems.aspx'); return false;" aria-label="All Documents, View, Selected" role="view" aria-selected="true">More news</a>
+</div>
+<script type="text/javascript" src="../SiteAssets/NewsRollups/jquery.min.js"></script>
+<script type="text/javascript" src="../SiteAssets/NewsRollups/bundle.js"></script>
+<script type="text/javascript">
+// ListName, CountryProp, LocationProp, DivisionProp, NoOfItems, CacheMinutes
+DG.Force.Main.Init("Announcements", "country", "city", "division", 8, 5);
+</script>

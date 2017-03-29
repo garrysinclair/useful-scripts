@@ -1,0 +1,60 @@
+﻿<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="Microsoft.SharePoint.WebPartPages.ScriptEditorWebPart, Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+      <importErrorMessage>Cannot import this Web Part.</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="ExportMode" type="exportmode">All</property>
+        <property name="HelpUrl" type="string" />
+        <property name="Hidden" type="bool">False</property>
+        <property name="Description" type="string">Allows authors to insert HTML snippets or scripts.</property>
+        <property name="Content" type="string">&lt;link rel="stylesheet" type="text/css" href="../SiteAssets/newsRollups/news-rollup.css"&gt;
+&lt;div class="forceNewsHeader"&gt;
+&lt;h1&gt;News&lt;/h1&gt;
+&lt;/div&gt;
+&lt;div class="forceNewsAddNew"&gt;
+&lt;a id="idHomePageNewAnnouncement" class="ms-textXLarge ms-heroCommandLink ms-hero-command-enabled-alt" 
+href="https://forcetechnology.sharepoint.com/_layouts/15/listform.aspx?PageType=8&amp;amp;ListId=%7B5A142935%2D3E87%2D4230%2D8C5F%2D0DA7A6F024B1%7D&amp;amp;RootFolder=" 
+data-viewctr="8" onclick="_EasyUploadOrNewItem2(event, false, &amp;quot;https://forcetechnology.sharepoint.com/_layouts/15/listform.aspx?PageType=8&amp;amp;ListId=%7B5A142935%2D3E87%2D4230%2D8C5F%2D0DA7A6F024B1%7D&amp;amp;RootFolder=&amp;quot;, &amp;quot;WPQ1&amp;quot;); return false;" 
+target="_self" 
+title="Add a new news item."&gt;
+&lt;span class="ms-list-addnew-imgSpan20"&gt;
+&lt;img id="idHomePageNewAnnouncement-img" src="/_layouts/15/images/spcommon.png?rev=44" class="ms-list-addnew-img20"&gt;&lt;/span&gt;
+&lt;span&gt;Create new&lt;/span&gt;
+&lt;/a&gt;
+&lt;/div&gt;
+ &lt;div id="forceNewsRollup" class="forceNewsRollup"&gt;
+ &lt;/div&gt;
+&lt;div class="forceNewsFooter"&gt;
+&lt;a class="ms-pivotControl-surfacedOpt-selected" href="#" id="WPQ1_ListTitleViewSelectorMenu_Container_surfaceopt0" onclick="SP.QoS.WriteUserEngagement(&amp;quot;ClientPivot_ViewSelected&amp;quot;);STSNavigate2(event,'/Lists/AnnouncementsTest/AllItems.aspx'); return false;" aria-label="All Documents, View, Selected" role="view" aria-selected="true"&gt;More news&lt;/a&gt;
+&lt;/div&gt;
+&lt;script type="text/javascript" src="../SiteAssets/NewsRollups/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="../SiteAssets/NewsRollups/bundle.js"&gt;&lt;/script&gt;
+
+&lt;script type="text/javascript"&gt;
+// ListName, CountryProp, LocationProp, DivisionProp
+DG.Force.Main.Init("Announcements", "country", "city", "division", 50, 15);
+&lt;/script&gt;
+</property>
+        <property name="CatalogIconImageUrl" type="string" />
+        <property name="Title" type="string">Script Editor</property>
+        <property name="AllowHide" type="bool">True</property>
+        <property name="AllowMinimize" type="bool">True</property>
+        <property name="AllowZoneChange" type="bool">True</property>
+        <property name="TitleUrl" type="string" />
+        <property name="ChromeType" type="chrometype">None</property>
+        <property name="AllowConnect" type="bool">True</property>
+        <property name="Width" type="unit" />
+        <property name="Height" type="unit" />
+        <property name="HelpMode" type="helpmode">Navigate</property>
+        <property name="AllowEdit" type="bool">True</property>
+        <property name="TitleIconImageUrl" type="string" />
+        <property name="Direction" type="direction">NotSet</property>
+        <property name="AllowClose" type="bool">True</property>
+        <property name="ChromeState" type="chromestate">Normal</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

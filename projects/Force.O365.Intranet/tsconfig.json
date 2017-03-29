@@ -1,0 +1,15 @@
+{
+    "files":[
+        "src/Data/DataService.ts",
+        "src/Services/StorageService.ts",
+        "src/Services/UserProfileService.ts",
+        "src/Services/NewsService.ts",
+        "src/main.ts"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "target": "es5",
+        "module": "none"
+    }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "inputFiles": [
+      "dist/Services/StorageService.js",
+      "dist/Services/UserProfileService.js",
+      "dist/Services/NewsService.js",
+      "dist/main.js"
+    ],
+    "minify": {
+      "enabled": false,
+      "commentMode": "all",
+      "renameLocals": "false"
+    },
+    "outputFileName": "dist/bundle.js",
+    "sourceMap": true
+  }
+]

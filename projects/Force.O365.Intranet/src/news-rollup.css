@@ -1,0 +1,22 @@
+
+.forceNewsRollup .force-news-item {
+   float: left;
+   width: 60%;
+   display: block;
+   margin-bottom: 6px;
+}
+
+.forceNewsRollup .force-title {
+   float: left;
+}
+
+.forceNewsRollup .red {
+    font-weight: bold;
+    color: red;
+}
+
+.forceNewsHeader, .forceNewsAddNew, .forceNewsRollup, .forceNewsFooter {
+margin-bottom: 10px;
+display:block;
+clear:left;
+}
